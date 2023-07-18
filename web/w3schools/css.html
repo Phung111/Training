@@ -1,0 +1,1256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./w33School.css">
+</head>
+
+<body>
+    <input type="radio" id="check__none" name="menu" class="hide">
+    <input type="radio" id="check__tutorials" name="menu" class="hide">
+    <input type="radio" id="check__exercises" name="menu" class="hide">
+    <input type="checkbox" id="check__sidebar" name="menu" class="hide">
+    <input type="checkbox" id="check__theme" name="menu" class="hide">
+    <input type="checkbox" id="check__language" name="menu" class="hide">
+    <input type="checkbox" id="check__search" name="menu" class="hide">
+    <header>
+        <div class="menu">
+            <div class="menu__icon">
+                <img src="./img/w3schools.svg" alt="">
+            </div>
+            <div class="menu__nav">
+                <nav>
+                    <ul>
+                        <label for="check__tutorials">
+                            <li class="tutorials">
+                                Tutorials
+                                <i class="fa-solid fa-caret-down"></i>
+                                <i class="fa-solid fa-caret-up hide"></i>
+                            </li>
+                        </label>
+                        <label for="check__exercises">
+                            <li class="exercises">
+                                Exercises
+                                <i class="fa-solid fa-caret-down"></i>
+                                <i class="fa-solid fa-caret-up hide"></i>
+                                <input type="checkbox" id="check__exercises" class="hide">
+                            </li>
+                        </label>
+                        <label>
+                            <li>
+                                Get Certified
+                                <i class="fa-solid fa-caret-down"></i>
+                                <i class="fa-solid fa-caret-up hide"></i>
+                                <input type="checkbox" id="check__certified" class="hide">
+                            </li>
+                        </label>
+                        <label>
+                            <li>
+                                Services
+                                <i class="fa-solid fa-caret-down"></i>
+                                <i class="fa-solid fa-caret-up hide"></i>
+                                <input type="checkbox" id="check__services" class="hide">
+                            </li>
+                        </label>
+                    </ul>
+                </nav>
+            </div>
+            <div class="menu__other">
+                <div class="menu__other__item">
+                    <i class="fa-solid fa-star"></i>
+                    Bootcamps
+                </div>
+                <div class="menu__other__item">
+                    <i class="fa-solid fa-gift"></i>
+                    Spaces
+                </div>
+            </div>
+            <div class="menu__login__signup">
+                <button class="menu__login">
+                    Sign Up
+                </button>
+                <button class="menu__login menu__signup">
+                    Log In
+                </button>
+            </div>
+        </div>
+        <div class="drop__menu__center">
+            <div id="drop__menu__tutorials" class="drop__menu">
+                <div class="drop__menu__header">
+                    <div class="drop__menu__header__title">Tutorials and References</div>
+                    <div class="drop__menu__header__close"><label for="check__none"><i
+                                class="fa-solid fa-xmark"></i></label></div>
+                </div>
+                <div class="drop__menu__body">
+                    <div class="drop__menu__body__content">
+                        <p>HTML and CSS</p>
+                        <div class="drmnbdct__text">
+                            <div class="drmnbdct__text__1">
+                                Learn <span>HTML</span>
+                            </div>
+                            <ul class="drmnbdct__text__2">
+                                <li>Tutorial</li>
+                                <li>Reference</li>
+                            </ul>
+                        </div>
+                        <div class="drmnbdct__text">
+                            <div class="drmnbdct__text__1">
+                                Learn <span>CSS</span>
+                            </div>
+                            <ul class="drmnbdct__text__2">
+                                <li>Tutorial</li>
+                                <li>Reference</li>
+                            </ul>
+                        </div>
+                        <div class="drmnbdct__text">
+                            <div class="drmnbdct__text__1">
+                                Learn <span>RWD</span>
+                            </div>
+                            <ul class="drmnbdct__text__2">
+                                <li>Tutorial</li>
+
+                            </ul>
+                        </div>
+                        <div class="drmnbdct__text">
+                            <div class="drmnbdct__text__1">
+                                Learn <span>Bootstrap</span>
+                            </div>
+                            <ul class="drmnbdct__text__2">
+                                <li>Overview</li>
+                            </ul>
+                        </div>
+                        <div class="drmnbdct__text">
+                            <div class="drmnbdct__text__1">
+                                Learn <span>W3.CSS</span>
+                            </div>
+                            <ul class="drmnbdct__text__2">
+                                <li>Tutorial</li>
+                                <li>Reference</li>
+                            </ul>
+                        </div>
+                        <div class="drmnbdct__text">
+                            <div class="drmnbdct__text__1">
+                                Learn <span>Sass</span>
+                            </div>
+                            <ul class="drmnbdct__text__2">
+                                <li>Tutorial</li>
+                                <li>Reference</li>
+                            </ul>
+                        </div>
+                        <div class="drmnbdct__text">
+                            <div class="drmnbdct__text__1">
+                                Learn <span>Colors</span>
+                            </div>
+                            <ul class="drmnbdct__text__2">
+                                <li>Tutorial</li>
+                                <li>Reference</li>
+                            </ul>
+                        </div>
+                        <div class="drmnbdct__text">
+                            <div class="drmnbdct__text__1">
+                                Learn <span>Icons</span>
+                            </div>
+                            <ul class="drmnbdct__text__2">
+                                <li>Tutorial</li>
+                                <li>Reference</li>
+                            </ul>
+                        </div>
+                        <div class="drmnbdct__text">
+                            <div class="drmnbdct__text__1">
+                                Learn <span>SVG</span>
+                            </div>
+                            <ul class="drmnbdct__text__2">
+                                <li>Tutorial</li>
+                                <li>Reference</li>
+                            </ul>
+                        </div>
+                        <div class="drmnbdct__text">
+                            <div class="drmnbdct__text__1">
+                                Learn <span>Canvas</span>
+                            </div>
+                            <ul class="drmnbdct__text__2">
+                                <li>Tutorial</li>
+                                <li>Reference</li>
+                            </ul>
+                        </div>
+                        <div class="drmnbdct__text">
+                            <div class="drmnbdct__text__1">
+                                Learn <span>Gracphics</span>
+                            </div>
+                            <ul class="drmnbdct__text__2">
+                                <li>Tutorial</li>
+                            </ul>
+                        </div>
+                        <div class="drmnbdct__text">
+                            <div class="drmnbdct__text__1">
+                                Learn <span>How To</span>
+                            </div>
+                            <ul class="drmnbdct__text__2">
+                                <li>Tutorial</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="drop__menu__body__content">
+                        <p>HTML and CSS</p>
+                        <div class="drmnbdct__text">
+                            <div class="drmnbdct__text__1">
+                                Learn <span>HTML</span>
+                            </div>
+                            <ul class="drmnbdct__text__2">
+                                <li>Tutorial</li>
+                                <li>Reference</li>
+                            </ul>
+                        </div>
+                        <div class="drmnbdct__text">
+                            <div class="drmnbdct__text__1">
+                                Learn <span>CSS</span>
+                            </div>
+                            <ul class="drmnbdct__text__2">
+                                <li>Tutorial</li>
+                                <li>Reference</li>
+                            </ul>
+                        </div>
+                        <div class="drmnbdct__text">
+                            <div class="drmnbdct__text__1">
+                                Learn <span>RWD</span>
+                            </div>
+                            <ul class="drmnbdct__text__2">
+                                <li>Tutorial</li>
+
+                            </ul>
+                        </div>
+                        <div class="drmnbdct__text">
+                            <div class="drmnbdct__text__1">
+                                Learn <span>Bootstrap</span>
+                            </div>
+                            <ul class="drmnbdct__text__2">
+                                <li>Overview</li>
+                            </ul>
+                        </div>
+                        <div class="drmnbdct__text">
+                            <div class="drmnbdct__text__1">
+                                Learn <span>W3.CSS</span>
+                            </div>
+                            <ul class="drmnbdct__text__2">
+                                <li>Tutorial</li>
+                                <li>Reference</li>
+                            </ul>
+                        </div>
+                        <div class="drmnbdct__text">
+                            <div class="drmnbdct__text__1">
+                                Learn <span>Sass</span>
+                            </div>
+                            <ul class="drmnbdct__text__2">
+                                <li>Tutorial</li>
+                                <li>Reference</li>
+                            </ul>
+                        </div>
+                        <div class="drmnbdct__text">
+                            <div class="drmnbdct__text__1">
+                                Learn <span>Colors</span>
+                            </div>
+                            <ul class="drmnbdct__text__2">
+                                <li>Tutorial</li>
+                                <li>Reference</li>
+                            </ul>
+                        </div>
+                        <div class="drmnbdct__text">
+                            <div class="drmnbdct__text__1">
+                                Learn <span>Icons</span>
+                            </div>
+                            <ul class="drmnbdct__text__2">
+                                <li>Tutorial</li>
+                                <li>Reference</li>
+                            </ul>
+                        </div>
+                        <div class="drmnbdct__text">
+                            <div class="drmnbdct__text__1">
+                                Learn <span>SVG</span>
+                            </div>
+                            <ul class="drmnbdct__text__2">
+                                <li>Tutorial</li>
+                                <li>Reference</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="drop__menu__body__content">
+                        <p>HTML and CSS</p>
+                        <div class="drmnbdct__text">
+                            <div class="drmnbdct__text__1">
+                                Learn <span>HTML</span>
+                            </div>
+                            <ul class="drmnbdct__text__2">
+                                <li>Tutorial</li>
+                                <li>Reference</li>
+                            </ul>
+                        </div>
+                        <div class="drmnbdct__text">
+                            <div class="drmnbdct__text__1">
+                                Learn <span>CSS</span>
+                            </div>
+                            <ul class="drmnbdct__text__2">
+                                <li>Tutorial</li>
+                                <li>Reference</li>
+                            </ul>
+                        </div>
+                        <div class="drmnbdct__text">
+                            <div class="drmnbdct__text__1">
+                                Learn <span>RWD</span>
+                            </div>
+                            <ul class="drmnbdct__text__2">
+                                <li>Tutorial</li>
+
+                            </ul>
+                        </div>
+                        <div class="drmnbdct__text">
+                            <div class="drmnbdct__text__1">
+                                Learn <span>Bootstrap</span>
+                            </div>
+                            <ul class="drmnbdct__text__2">
+                                <li>Overview</li>
+                            </ul>
+                        </div>
+                        <div class="drmnbdct__text">
+                            <div class="drmnbdct__text__1">
+                                Learn <span>W3.CSS</span>
+                            </div>
+                            <ul class="drmnbdct__text__2">
+                                <li>Tutorial</li>
+                                <li>Reference</li>
+                            </ul>
+                        </div>
+                        <div class="drmnbdct__text">
+                            <div class="drmnbdct__text__1">
+                                Learn <span>Sass</span>
+                            </div>
+                            <ul class="drmnbdct__text__2">
+                                <li>Tutorial</li>
+                                <li>Reference</li>
+                            </ul>
+                        </div>
+                        <div class="drmnbdct__text">
+                            <div class="drmnbdct__text__1">
+                                Learn <span>Colors</span>
+                            </div>
+                            <ul class="drmnbdct__text__2">
+                                <li>Tutorial</li>
+                                <li>Reference</li>
+                            </ul>
+                        </div>
+                        <div class="drmnbdct__text">
+                            <div class="drmnbdct__text__1">
+                                Learn <span>Icons</span>
+                            </div>
+                            <ul class="drmnbdct__text__2">
+                                <li>Tutorial</li>
+                                <li>Reference</li>
+                            </ul>
+                        </div>
+                        <div class="drmnbdct__text">
+                            <div class="drmnbdct__text__1">
+                                Learn <span>SVG</span>
+                            </div>
+                            <ul class="drmnbdct__text__2">
+                                <li>Tutorial</li>
+                                <li>Reference</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="drop__menu__body__content">
+                        <p>HTML and CSS</p>
+                        <div class="drmnbdct__text">
+                            <div class="drmnbdct__text__1">
+                                Learn <span>HTML</span>
+                            </div>
+                            <ul class="drmnbdct__text__2">
+                                <li>Tutorial</li>
+                                <li>Reference</li>
+                            </ul>
+                        </div>
+                        <div class="drmnbdct__text">
+                            <div class="drmnbdct__text__1">
+                                Learn <span>CSS</span>
+                            </div>
+                            <ul class="drmnbdct__text__2">
+                                <li>Tutorial</li>
+                                <li>Reference</li>
+                            </ul>
+                        </div>
+                        <div class="drmnbdct__text">
+                            <div class="drmnbdct__text__1">
+                                Learn <span>RWD</span>
+                            </div>
+                            <ul class="drmnbdct__text__2">
+                                <li>Tutorial</li>
+                            </ul>
+                        </div>
+                        <div class="drmnbdct__text">
+                            <div class="drmnbdct__text__1">
+                                Learn <span>Bootstrap</span>
+                            </div>
+                            <ul class="drmnbdct__text__2">
+                                <li>Overview</li>
+                            </ul>
+                        </div>
+                        <div class="drmnbdct__text">
+                            <div class="drmnbdct__text__1">
+                                Learn <span>W3.CSS</span>
+                            </div>
+                            <ul class="drmnbdct__text__2">
+                                <li>Tutorial</li>
+                                <li>Reference</li>
+                            </ul>
+                        </div>
+                        <div class="drmnbdct__text">
+                            <div class="drmnbdct__text__1">
+                                Learn <span>Sass</span>
+                            </div>
+                            <ul class="drmnbdct__text__2">
+                                <li>Tutorial</li>
+                                <li>Reference</li>
+                            </ul>
+                        </div>
+                        <div class="drmnbdct__text">
+                            <div class="drmnbdct__text__1">
+                                Learn <span>Colors</span>
+                            </div>
+                            <ul class="drmnbdct__text__2">
+                                <li>Tutorial</li>
+                                <li>Reference</li>
+                            </ul>
+                        </div>
+                        <div class="drmnbdct__text">
+                            <div class="drmnbdct__text__1">
+                                Learn <span>Icons</span>
+                            </div>
+                            <ul class="drmnbdct__text__2">
+                                <li>Tutorial</li>
+                                <li>Reference</li>
+                            </ul>
+                        </div>
+                        <div class="drmnbdct__text">
+                            <div class="drmnbdct__text__1">
+                                Learn <span>SVG</span>
+                            </div>
+                            <ul class="drmnbdct__text__2">
+                                <li>Tutorial</li>
+                                <li>Reference</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="drop__menu__exercises" class="drop__menu">
+                <div class="drop__menu__header">
+                    <div class="drop__menu__header__title">Exercises and Quizzes</div>
+                    <div class="drop__menu__header__close"><label for="check__none"><i
+                                class="fa-solid fa-xmark"></i></label>
+                    </div>
+                </div>
+                <div class="drop__menu__body">
+                    <div class="drop__menu__body__content">
+                        <p>HTML and CSS</p>
+                        <div class="drmnbdct__text">
+                            <div class="drmnbdct__text__1">
+                                Learn <span>HTML</span>
+                            </div>
+                            <ul class="drmnbdct__text__2">
+                                <li>Tutorial</li>
+                                <li>Reference</li>
+                            </ul>
+                        </div>
+                        <div class="drmnbdct__text">
+                            <div class="drmnbdct__text__1">
+                                Learn <span>CSS</span>
+                            </div>
+                            <ul class="drmnbdct__text__2">
+                                <li>Tutorial</li>
+                                <li>Reference</li>
+                            </ul>
+                        </div>
+                        <div class="drmnbdct__text">
+                            <div class="drmnbdct__text__1">
+                                Learn <span>RWD</span>
+                            </div>
+                            <ul class="drmnbdct__text__2">
+                                <li>Tutorial</li>
+
+                            </ul>
+                        </div>
+                        <div class="drmnbdct__text">
+                            <div class="drmnbdct__text__1">
+                                Learn <span>Bootstrap</span>
+                            </div>
+                            <ul class="drmnbdct__text__2">
+                                <li>Overview</li>
+                            </ul>
+                        </div>
+                        <div class="drmnbdct__text">
+                            <div class="drmnbdct__text__1">
+                                Learn <span>W3.CSS</span>
+                            </div>
+                            <ul class="drmnbdct__text__2">
+                                <li>Tutorial</li>
+                                <li>Reference</li>
+                            </ul>
+                        </div>
+                        <div class="drmnbdct__text">
+                            <div class="drmnbdct__text__1">
+                                Learn <span>Sass</span>
+                            </div>
+                            <ul class="drmnbdct__text__2">
+                                <li>Tutorial</li>
+                                <li>Reference</li>
+                            </ul>
+                        </div>
+                        <div class="drmnbdct__text">
+                            <div class="drmnbdct__text__1">
+                                Learn <span>Colors</span>
+                            </div>
+                            <ul class="drmnbdct__text__2">
+                                <li>Tutorial</li>
+                                <li>Reference</li>
+                            </ul>
+                        </div>
+                        <div class="drmnbdct__text">
+                            <div class="drmnbdct__text__1">
+                                Learn <span>Icons</span>
+                            </div>
+                            <ul class="drmnbdct__text__2">
+                                <li>Tutorial</li>
+                                <li>Reference</li>
+                            </ul>
+                        </div>
+                        <div class="drmnbdct__text">
+                            <div class="drmnbdct__text__1">
+                                Learn <span>SVG</span>
+                            </div>
+                            <ul class="drmnbdct__text__2">
+                                <li>Tutorial</li>
+                                <li>Reference</li>
+                            </ul>
+                        </div>
+                        <div class="drmnbdct__text">
+                            <div class="drmnbdct__text__1">
+                                Learn <span>Canvas</span>
+                            </div>
+                            <ul class="drmnbdct__text__2">
+                                <li>Tutorial</li>
+                                <li>Reference</li>
+                            </ul>
+                        </div>
+                        <div class="drmnbdct__text">
+                            <div class="drmnbdct__text__1">
+                                Learn <span>Gracphics</span>
+                            </div>
+                            <ul class="drmnbdct__text__2">
+                                <li>Tutorial</li>
+                            </ul>
+                        </div>
+                        <div class="drmnbdct__text">
+                            <div class="drmnbdct__text__1">
+                                Learn <span>How To</span>
+                            </div>
+                            <ul class="drmnbdct__text__2">
+                                <li>Tutorial</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="drop__menu__body__content">
+                        <p>HTML and CSS</p>
+                        <div class="drmnbdct__text">
+                            <div class="drmnbdct__text__1">
+                                Learn <span>HTML</span>
+                            </div>
+                            <ul class="drmnbdct__text__2">
+                                <li>Tutorial</li>
+                                <li>Reference</li>
+                            </ul>
+                        </div>
+                        <div class="drmnbdct__text">
+                            <div class="drmnbdct__text__1">
+                                Learn <span>CSS</span>
+                            </div>
+                            <ul class="drmnbdct__text__2">
+                                <li>Tutorial</li>
+                                <li>Reference</li>
+                            </ul>
+                        </div>
+                        <div class="drmnbdct__text">
+                            <div class="drmnbdct__text__1">
+                                Learn <span>RWD</span>
+                            </div>
+                            <ul class="drmnbdct__text__2">
+                                <li>Tutorial</li>
+
+                            </ul>
+                        </div>
+                        <div class="drmnbdct__text">
+                            <div class="drmnbdct__text__1">
+                                Learn <span>Bootstrap</span>
+                            </div>
+                            <ul class="drmnbdct__text__2">
+                                <li>Overview</li>
+                            </ul>
+                        </div>
+                        <div class="drmnbdct__text">
+                            <div class="drmnbdct__text__1">
+                                Learn <span>W3.CSS</span>
+                            </div>
+                            <ul class="drmnbdct__text__2">
+                                <li>Tutorial</li>
+                                <li>Reference</li>
+                            </ul>
+                        </div>
+                        <div class="drmnbdct__text">
+                            <div class="drmnbdct__text__1">
+                                Learn <span>Sass</span>
+                            </div>
+                            <ul class="drmnbdct__text__2">
+                                <li>Tutorial</li>
+                                <li>Reference</li>
+                            </ul>
+                        </div>
+                        <div class="drmnbdct__text">
+                            <div class="drmnbdct__text__1">
+                                Learn <span>Colors</span>
+                            </div>
+                            <ul class="drmnbdct__text__2">
+                                <li>Tutorial</li>
+                                <li>Reference</li>
+                            </ul>
+                        </div>
+                        <div class="drmnbdct__text">
+                            <div class="drmnbdct__text__1">
+                                Learn <span>Icons</span>
+                            </div>
+                            <ul class="drmnbdct__text__2">
+                                <li>Tutorial</li>
+                                <li>Reference</li>
+                            </ul>
+                        </div>
+                        <div class="drmnbdct__text">
+                            <div class="drmnbdct__text__1">
+                                Learn <span>SVG</span>
+                            </div>
+                            <ul class="drmnbdct__text__2">
+                                <li>Tutorial</li>
+                                <li>Reference</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="drop__menu__body__content">
+                        <p>HTML and CSS</p>
+                        <div class="drmnbdct__text">
+                            <div class="drmnbdct__text__1">
+                                Learn <span>HTML</span>
+                            </div>
+                            <ul class="drmnbdct__text__2">
+                                <li>Tutorial</li>
+                                <li>Reference</li>
+                            </ul>
+                        </div>
+                        <div class="drmnbdct__text">
+                            <div class="drmnbdct__text__1">
+                                Learn <span>CSS</span>
+                            </div>
+                            <ul class="drmnbdct__text__2">
+                                <li>Tutorial</li>
+                                <li>Reference</li>
+                            </ul>
+                        </div>
+                        <div class="drmnbdct__text">
+                            <div class="drmnbdct__text__1">
+                                Learn <span>RWD</span>
+                            </div>
+                            <ul class="drmnbdct__text__2">
+                                <li>Tutorial</li>
+
+                            </ul>
+                        </div>
+                        <div class="drmnbdct__text">
+                            <div class="drmnbdct__text__1">
+                                Learn <span>Bootstrap</span>
+                            </div>
+                            <ul class="drmnbdct__text__2">
+                                <li>Overview</li>
+                            </ul>
+                        </div>
+                        <div class="drmnbdct__text">
+                            <div class="drmnbdct__text__1">
+                                Learn <span>W3.CSS</span>
+                            </div>
+                            <ul class="drmnbdct__text__2">
+                                <li>Tutorial</li>
+                                <li>Reference</li>
+                            </ul>
+                        </div>
+                        <div class="drmnbdct__text">
+                            <div class="drmnbdct__text__1">
+                                Learn <span>Sass</span>
+                            </div>
+                            <ul class="drmnbdct__text__2">
+                                <li>Tutorial</li>
+                                <li>Reference</li>
+                            </ul>
+                        </div>
+                        <div class="drmnbdct__text">
+                            <div class="drmnbdct__text__1">
+                                Learn <span>Colors</span>
+                            </div>
+                            <ul class="drmnbdct__text__2">
+                                <li>Tutorial</li>
+                                <li>Reference</li>
+                            </ul>
+                        </div>
+                        <div class="drmnbdct__text">
+                            <div class="drmnbdct__text__1">
+                                Learn <span>Icons</span>
+                            </div>
+                            <ul class="drmnbdct__text__2">
+                                <li>Tutorial</li>
+                                <li>Reference</li>
+                            </ul>
+                        </div>
+                        <div class="drmnbdct__text">
+                            <div class="drmnbdct__text__1">
+                                Learn <span>SVG</span>
+                            </div>
+                            <ul class="drmnbdct__text__2">
+                                <li>Tutorial</li>
+                                <li>Reference</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="drop__menu__body__content">
+                        <p>HTML and CSS</p>
+                        <div class="drmnbdct__text">
+                            <div class="drmnbdct__text__1">
+                                Learn <span>HTML</span>
+                            </div>
+                            <ul class="drmnbdct__text__2">
+                                <li>Tutorial</li>
+                                <li>Reference</li>
+                            </ul>
+                        </div>
+                        <div class="drmnbdct__text">
+                            <div class="drmnbdct__text__1">
+                                Learn <span>CSS</span>
+                            </div>
+                            <ul class="drmnbdct__text__2">
+                                <li>Tutorial</li>
+                                <li>Reference</li>
+                            </ul>
+                        </div>
+                        <div class="drmnbdct__text">
+                            <div class="drmnbdct__text__1">
+                                Learn <span>RWD</span>
+                            </div>
+                            <ul class="drmnbdct__text__2">
+                                <li>Tutorial</li>
+
+                            </ul>
+                        </div>
+                        <div class="drmnbdct__text">
+                            <div class="drmnbdct__text__1">
+                                Learn <span>Bootstrap</span>
+                            </div>
+                            <ul class="drmnbdct__text__2">
+                                <li>Overview</li>
+                            </ul>
+                        </div>
+                        <div class="drmnbdct__text">
+                            <div class="drmnbdct__text__1">
+                                Learn <span>W3.CSS</span>
+                            </div>
+                            <ul class="drmnbdct__text__2">
+                                <li>Tutorial</li>
+                                <li>Reference</li>
+                            </ul>
+                        </div>
+                        <div class="drmnbdct__text">
+                            <div class="drmnbdct__text__1">
+                                Learn <span>Sass</span>
+                            </div>
+                            <ul class="drmnbdct__text__2">
+                                <li>Tutorial</li>
+                                <li>Reference</li>
+                            </ul>
+                        </div>
+                        <div class="drmnbdct__text">
+                            <div class="drmnbdct__text__1">
+                                Learn <span>Colors</span>
+                            </div>
+                            <ul class="drmnbdct__text__2">
+                                <li>Tutorial</li>
+                                <li>Reference</li>
+                            </ul>
+                        </div>
+                        <div class="drmnbdct__text">
+                            <div class="drmnbdct__text__1">
+                                Learn <span>Icons</span>
+                            </div>
+                            <ul class="drmnbdct__text__2">
+                                <li>Tutorial</li>
+                                <li>Reference</li>
+                            </ul>
+                        </div>
+                        <div class="drmnbdct__text">
+                            <div class="drmnbdct__text__1">
+                                Learn <span>SVG</span>
+                            </div>
+                            <ul class="drmnbdct__text__2">
+                                <li>Tutorial</li>
+                                <li>Reference</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="nav">
+        <nav>
+            <div class="nav__menu">
+                <ul>
+                    <label for="check__sidebar">
+                        <li id="drop__side__bar"><i class="fa-solid fa-bars"></i></li>
+                    </label>
+                    <li class="nav__active">HTML</li>
+                    <li>CSS</li>
+                    <li>JAVASCRIPT</li>
+                    <li>SQL</li>
+                    <li>PYTHON</li>
+                    <li>JAVE</li>
+                    <li>PHP</li>
+                    <li>BOOTSTRAP</li>
+                    <li>HOW TO</li>
+                    <li>W3.CSS</li>
+                    <li>C</li>
+                    <li>C++</li>
+                </ul>
+            </div>
+            <div class="nav__search">
+                <ul>
+                    <label for="check__theme">
+                        <li id="theme">
+                            <i class="fa-solid fa-circle-half-stroke"></i>
+                            <div class="theme__drop">
+                                <div class="theme__drop__item">
+                                    <input id="dark__mode" type="checkbox">
+                                    <label for="dark__mode">Dark Mode</label>
+                                </div>
+                                <div class="theme__drop__item">
+                                    <input id="dark__code" type="checkbox">
+                                    <label for="dark__code">Dark Code</label>
+                                </div>
+                            </div>
+                        </li>
+                    </label>
+                    <label for="check__language">
+                        <li id="laguage"><i class="fa-solid fa-earth-americas"></i></li>
+                    </label>
+                    <label for="check__search">
+                        <li id="search">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <div class="search__drop">
+                                <input type="text">
+                                <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                            </div>
+                        </li>
+                    </label>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="side__bar">
+        <aside>
+            <div class="side__bar__head">HTML Tutorial</div>
+            <div class="side__bar__content">
+                <ul>
+                    <nav>
+                        <li>HTML HOME</li>
+                        <li>HTML Introdution</li>
+                        <li>HTML Editors</li>
+                        <li>HTML Basic</li>
+                        <li>HTML Elements</li>
+                        <li>HTML Attributes</li>
+                        <li>HTML Heading</li>
+                        <li>HTML Paragraphs</li>
+                        <li>HTML tyles</li>
+                        <li>HTML Formatting</li>
+                    </nav>
+                </ul>
+            </div>
+            <div class="side__bar__head">HTML Tutorial</div>
+            <div class="side__bar__content">
+                <ul>
+                    <nav>
+                        <li>HTML HOME</li>
+                        <li>HTML Introdution</li>
+                        <li>HTML Editors</li>
+                        <li>HTML Basic</li>
+                        <li>HTML Elements</li>
+                        <li>HTML Attributes</li>
+                        <li>HTML Heading</li>
+                        <li>HTML Paragraphs</li>
+                        <li>HTML tyles</li>
+                        <li>HTML Formatting</li>
+                    </nav>
+                </ul>
+            </div>
+            <div class="side__bar__head">HTML Tutorial</div>
+            <div class="side__bar__content">
+                <ul>
+                    <nav>
+                        <li>HTML HOME</li>
+                        <li>HTML Introdution</li>
+                        <li>HTML Editors</li>
+                        <li>HTML Basic</li>
+                        <li>HTML Elements</li>
+                        <li>HTML Attributes</li>
+                        <li>HTML Heading</li>
+                        <li>HTML Paragraphs</li>
+                        <li>HTML tyles</li>
+                        <li>HTML Formatting</li>
+                    </nav>
+                </ul>
+            </div>
+        </aside>
+        <div>
+            <section>
+
+            </section>
+            <aside>
+
+            </aside>
+            <footer>
+
+            </footer>
+        </div>
+    </div>
+    <div class="cover__body">
+        <div class="content__advertise">
+            <div class="content">
+                <div class="content__title">
+                    <h1>HTML Tutorial</h1>
+                </div>
+                <div class="content__next">
+                    <button class="button__home__next"><i class="fa-solid fa-angle-left"></i> Home</button>
+                    <button class="button__home__next">Next <i class="fa-solid fa-angle-right"></i></button>
+                </div>
+                <div class="content__decription">
+                    <p>HTML is the standard markup language for Web pages.</p>
+                    <p>With HTML you can create your own Website.</p>
+                    <p>HTML is easy to learn - You will enjoy it!</p>
+                    <div class="cover__button__from__flex">
+                        <button class="button__try">
+                            Study our free HTML Tutorial
+                            <i class="fa-solid fa-angles-right"></i>
+                        </button>
+                    </div>
+                    <div class="cover__button__from__flex">
+                        <button class="button__try button__black button__new">
+                            Watch our Video Tutorial
+                            <i class="fa-solid fa-angles-right"></i>
+                        </button>
+                    </div>
+                </div>
+                <hr>
+                <div class="content__part">
+                    <h2>Easy Learning with HTML "Try it Yourself"</h2>
+                    <p>With our "Try it Yourself" editor, you can edit the HTML code and view the result:</p>
+                    <p>With our "Try it Yourself" editor, you can edit the HTML code and view the result:</p>
+                    <p>With our "Try it Yourself" editor, you can edit the HTML code and view the result:</p>
+                    <div class="content__part__example__box">
+                        <h3>Example</h3>
+                        <div class="content__part__example__box__code">
+                            <img src="./img/example_code.png" alt="">
+                        </div>
+                        <button class="button__try">
+                            Try it Yourself
+                            <i class="fa-solid fa-angles-right"></i>
+                        </button>
+                    </div>
+                    <b>
+                        <p>Click on the "Try it Yourself" button to see how it works.</p>
+                    </b>
+                </div>
+                <hr>
+                <div class="content__part">
+                    <h2>HTML Examples</h2>
+                    <p>In this HTML tutorial, you will find more than 200 examples. With our online "Try it Yourself"
+                        editor, you can edit and
+                        test each example yourself!</p>
+                    <button class="button__goto">Go to HTML Examples!</button>
+                </div>
+                <hr>
+                <br>
+                <hr>
+                <div class="content__part">
+                    <h2>HTML Exercises</h2>
+                    <p>This HTML tutorial also contains nearly 100 HTML exercises.</p>
+                    <button class="button__goto">Go to HTML Examples!</button>
+                    <div class="content__part__example__box"
+                        style="background-color: var(--black); color: var(--white);">
+                        <h3>Test Yourself With Exercises</h3>
+                        <div class="content__part__example__box__code">
+                            <img src="./img/example_code.png" alt="">
+                        </div>
+                        <button class="button__try">
+                            Try it Yourself
+                            <i class="fa-solid fa-angles-right"></i>
+                        </button>
+                    </div>
+                </div>
+                <hr>
+                <div class="content__part">
+                    <h2>HTML Quiz Test</h2>
+                    <p>Test your HTML skills with our HTML Quiz!</p>
+                    <button class="button__goto button__goto__blue">Start HTML Quiz!</button>
+                </div>
+                <hr>
+                <div class="content__part">
+                    <h2>My Learning</h2>
+                    <p>Track your progress with the free "My Learning" program here at W3Schools.</p>
+                    <p>Log in to your account, and start earning points!</p>
+                    <p>This is an optional feature. You can study W3Schools without using My Learning.</p>
+                    <div class="content__part__img">
+                        <img src="./img/mylearning.png" alt="">
+                    </div>
+                </div>
+                <hr>
+                <div class="content__part">
+                    <h2>CSS References</h2>
+                    <p>At W3Schools you will find complete CSS references of all properties and selectors with syntax,
+                        examples, browser
+                        support, and more.</p>
+                </div>
+                <div class="content__next">
+                    <button class="button__home__next"><i class="fa-solid fa-angle-left"></i> Home</button>
+                    <button class="button__goto">Login in to track progress</button>
+                    <button class="button__home__next">Next <i class="fa-solid fa-angle-right"></i></button>
+                </div>
+            </div>
+            <div class="advertise">
+                <div class="advertise__part">
+                    <img src="./img/ad_1.png" alt="">
+                </div>
+                <div class="advertise__part">
+                    <img src="./img/ad_2.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="footer__part"></div>
+            <div class="footer__part">
+                <div class="footer__button">
+                    <button>Spaces</button>
+                    <button>Upgrade</button>
+                    <button>Newsletter</button>
+                    <button>Get Certified</button>
+                    <button>Report Error</button>
+                </div>
+            </div>
+            <div class="footer__part">
+                <div class="footer__part__menu">
+                    <nav>
+                        <div class="footer__part__menu__item">
+                            <h3>Top Tutorials</h3>
+                            <a href="">
+                                <p>HTML Tutorial</p>
+                            </a>
+                            <a href="">
+                                <p>CSS Tutorial</p>
+                            </a>
+                            <a href="">
+                                <p>JavaScript Tutorial</p>
+                            </a>
+                            <a href="">
+                                <p>How To Tutorial</p>
+                            </a>
+                            <a href="">
+                                <p>SQL Tutorial</p>
+                            </a>
+                            <a href="">
+                                <p>Python Tutorial</p>
+                            </a>
+                            <a href="">
+                                <p>W3.CSS Tutorial</p>
+                            </a>
+                            <a href="">
+                                <p>Bootstrap Tutorial</p>
+                            </a>
+                            <a href="">
+                                <p>PHP Tutorial</p>
+                            </a>
+                            <a href="">
+                                <p>Java Tutorial</p>
+                            </a>
+                            <a href="">
+                                <p>C++ Tutorial</p>
+                            </a>
+                            <a href="">
+                                <p>jQuery Tutorial</p>
+                            </a>
+                        </div>
+                        <div class="footer__part__menu__item">
+                            <h3>Top Tutorials</h3>
+                            <a href="">
+                                <p>HTML Tutorial</p>
+                            </a>
+                            <a href="">
+                                <p>CSS Tutorial</p>
+                            </a>
+                            <a href="">
+                                <p>JavaScript Tutorial</p>
+                            </a>
+                            <a href="">
+                                <p>How To Tutorial</p>
+                            </a>
+                            <a href="">
+                                <p>SQL Tutorial</p>
+                            </a>
+                            <a href="">
+                                <p>Python Tutorial</p>
+                            </a>
+                            <a href="">
+                                <p>W3.CSS Tutorial</p>
+                            </a>
+                            <a href="">
+                                <p>Bootstrap Tutorial</p>
+                            </a>
+                            <a href="">
+                                <p>PHP Tutorial</p>
+                            </a>
+                            <a href="">
+                                <p>Java Tutorial</p>
+                            </a>
+                            <a href="">
+                                <p>C++ Tutorial</p>
+                            </a>
+                            <a href="">
+                                <p>jQuery Tutorial</p>
+                            </a>
+                        </div>
+                        <div class="footer__part__menu__item">
+                            <h3>Top Tutorials</h3>
+                            <a href="">
+                                <p>HTML Tutorial</p>
+                            </a>
+                            <a href="">
+                                <p>CSS Tutorial</p>
+                            </a>
+                            <a href="">
+                                <p>JavaScript Tutorial</p>
+                            </a>
+                            <a href="">
+                                <p>How To Tutorial</p>
+                            </a>
+                            <a href="">
+                                <p>SQL Tutorial</p>
+                            </a>
+                            <a href="">
+                                <p>Python Tutorial</p>
+                            </a>
+                            <a href="">
+                                <p>W3.CSS Tutorial</p>
+                            </a>
+                            <a href="">
+                                <p>Bootstrap Tutorial</p>
+                            </a>
+                            <a href="">
+                                <p>PHP Tutorial</p>
+                            </a>
+                            <a href="">
+                                <p>Java Tutorial</p>
+                            </a>
+                            <a href="">
+                                <p>C++ Tutorial</p>
+                            </a>
+                            <a href="">
+                                <p>jQuery Tutorial</p>
+                            </a>
+                        </div>
+                        <div class="footer__part__menu__item">
+                            <h3>Top Tutorials</h3>
+                            <a href="">
+                                <p>HTML Tutorial</p>
+                            </a>
+                            <a href="">
+                                <p>CSS Tutorial</p>
+                            </a>
+                            <a href="">
+                                <p>JavaScript Tutorial</p>
+                            </a>
+                            <a href="">
+                                <p>How To Tutorial</p>
+                            </a>
+                            <a href="">
+                                <p>SQL Tutorial</p>
+                            </a>
+                            <a href="">
+                                <p>Python Tutorial</p>
+                            </a>
+                            <a href="">
+                                <p>W3.CSS Tutorial</p>
+                            </a>
+                            <a href="">
+                                <p>Bootstrap Tutorial</p>
+                            </a>
+                            <a href="">
+                                <p>PHP Tutorial</p>
+                            </a>
+                            <a href="">
+                                <p>Java Tutorial</p>
+                            </a>
+                            <a href="">
+                                <p>C++ Tutorial</p>
+                            </a>
+                            <a href="">
+                                <p>jQuery Tutorial</p>
+                            </a>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <div class="footer__part">
+                <div class="footer__part__forum">
+                    <a href="">FORUM </a>
+                    <span>|</span>
+                    <a href=""> ABOUT</a>
+                </div>
+                <div class="footer__part__foot">
+                    <p>W3Schools is optimized for learning and training. Examples might be simplified to improve reading
+                        and learning.
+                        Tutorials, references, and examples are constantly reviewed to avoid errors, but we cannot
+                        warrant full correctness of
+                        all content. While using W3Schools, you agree to have read and accepted our
+                        <a href="">terms of use</a>,
+                        <a href="">cookie and privacy policy</a>
+                        .
+                    </p>
+                    <p>
+                        <a href="">Copyright 1999-2023</a>
+                        by Refsnes Data. All Rights Reserved.
+                        W3Schools is Powered by W3.CSS.
+                    </p>
+                    <a href="">W3Schools is Powered by W3.CSS</a>.
+                    <div class="menu__icon">
+                        <img src="./img/w3schools.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
