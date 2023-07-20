@@ -47,7 +47,7 @@ h2 {
 }
 
 h3 {
-    font-size: 32px;
+    font-size: 24px;
 }
 
 h4 {}
@@ -236,6 +236,36 @@ img {
     padding-bottom: 64px;
 }
 
+.px-68 {
+    padding-left: 68px;
+    padding-right: 68px;
+}
+
+.py-68 {
+    padding-top: 68px;
+    padding-bottom: 68px;
+}
+
+.px-72 {
+    padding-left: 72px;
+    padding-right: 72px;
+}
+
+.py-72 {
+    padding-top: 72px;
+    padding-bottom: 72px;
+}
+
+.px-120 {
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.py-120 {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 .mx-2 {
     margin-left: 2px;
     margin-right: 2px;
@@ -374,7 +404,7 @@ img {
 }
 
 .mt-40 {
-    margin-top: 32px;
+    margin-top: 40px;
 }
 
 .mt-48 {
@@ -410,7 +440,7 @@ img {
 }
 
 .mb-40 {
-    margin-bottom: 32px;
+    margin-bottom: 40px;
 }
 
 .mb-48 {
@@ -446,7 +476,7 @@ img {
 }
 
 .ml-40 {
-    margin-left: 32px;
+    margin-left: 40px;
 }
 
 .ml-48 {
@@ -486,7 +516,7 @@ img {
 }
 
 .mr-40 {
-    margin-right: 32px;
+    margin-right: 40px;
 }
 
 .mr-48 {
@@ -507,6 +537,78 @@ img {
 
 .mr-120 {
     margin-right: 120px;
+}
+
+.w-8 {
+    width: 8px;
+}
+
+.w-16 {
+    width: 16px;
+}
+
+.w-24 {
+    width: 24px;
+}
+
+.w-32 {
+    width: 32px;
+}
+
+.w-40 {
+    width: 32px;
+}
+
+.w-48 {
+    width: 48px;
+}
+
+.w-56 {
+    width: 56px;
+}
+
+.w-60 {
+    width: 60px;
+}
+
+.w-120 {
+    width: 120px;
+}
+
+.h-8 {
+    height: 8px;
+}
+
+.h-16 {
+    height: 16px;
+}
+
+.h-24 {
+    height: 24px;
+}
+
+.h-32 {
+    height: 32px;
+}
+
+.h-40 {
+    height: 32px;
+}
+
+.h-48 {
+    height: 48px;
+}
+
+.h-56 {
+    height: 56px;
+}
+
+.h-60 {
+    height: 60px;
+}
+
+.h-120 {
+    height: 120px;
 }
 
 /* ------------------------------- */
@@ -882,6 +984,18 @@ img {
     border-radius: 28px;
 }
 
+.br-32 {
+    border-radius: 32px;
+}
+
+.br-36 {
+    border-radius: 36px;
+}
+
+.br-40 {
+    border-radius: 40px;
+}
+
 .br-lt-circle {
     border-top-left-radius: 50%;
 }
@@ -964,6 +1078,10 @@ img {
 
 .bs-5 {
     box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.15);
+}
+
+.bs-50 {
+    box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.05);
 }
 
 
@@ -1057,4 +1175,21 @@ img {
     height: 156px;
     background: url(./img/Dot.png);
     z-index: -1;
+}
+
+.bg__dot {
+    top: 0;
+    left: 0;
+    width: 196px;
+    height: 156px;
+    background: url(./img/Dot.png);
+    z-index: -1;
+}
+
+.bg__2 {
+    width: 1047px;
+    height: 619px;
+    border-top-left-radius: 150px;
+    top: 140px;
+    left: 802px;
 }
