@@ -1,6 +1,6 @@
 :root {
     --background__header: linear-gradient(#712cf9, #712cf9f2);
-    --primary: #F4F9FF;
+    --primary: #EFF1FF;
     --primary__hover: #6528e0;
     --secondary: #FFF5DB;
     --neutral: #feffff;
@@ -387,6 +387,16 @@ img {
     margin-bottom: 64px;
 }
 
+.mx-120 {
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.my-120 {
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
 .mt-8 {
     margin-top: 8px;
 }
@@ -425,6 +435,10 @@ img {
 
 .mb-8 {
     margin-bottom: 8px;
+}
+
+.mb-12 {
+    margin-bottom: 12px;
 }
 
 .mb-16 {
@@ -471,6 +485,10 @@ img {
     margin-left: 24px;
 }
 
+.ml-28 {
+    margin-left: 28px;
+}
+
 .ml-32 {
     margin-left: 32px;
 }
@@ -493,6 +511,10 @@ img {
 
 .ml-64 {
     margin-left: 64px;
+}
+
+.ml-80 {
+    margin-left: 80px;
 }
 
 .ml-120 {
@@ -519,6 +541,10 @@ img {
     margin-right: 40px;
 }
 
+.mr-44 {
+    margin-right: 44px;
+}
+
 .mr-48 {
     margin-right: 48px;
 }
@@ -533,6 +559,26 @@ img {
 
 .mr-64 {
     margin-right: 64px;
+}
+
+.mr-68 {
+    margin-right: 68px;
+}
+
+.mr-72 {
+    margin-right: 72px;
+}
+
+.mr-76 {
+    margin-right: 76px;
+}
+
+.mr-80 {
+    margin-right: 80px;
+}
+
+.mr-100 {
+    margin-right: 100px;
 }
 
 .mr-120 {
@@ -816,6 +862,12 @@ img {
 }
 
 /* ------------------------------- */
+.flex-middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .flex {
     display: flex;
 }
@@ -1191,5 +1243,70 @@ img {
     height: 619px;
     border-top-left-radius: 150px;
     top: 140px;
-    left: 802px;
+    left: 382px;
+}
+
+.bg__shape {
+    width: 178px;
+    height: 178px;
+    z-index: -1;
+    border-bottom-right-radius: 50%;
+}
+
+.bg__circle {
+    width: 129px;
+    height: 129px;
+    z-index: -1;
+    bottom: 0;
+    right: 0;
+    transform: translate(50%, 50%);
+    border-radius: 50%;
+}
+
+.dot__slide {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+}
+
+.matthew__paul {
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+
+.img__large {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.img__medium {
+    position: absolute;
+    width: 98px;
+    height: 98px;
+    border-radius: 50%;
+}
+
+.img__small {
+    position: absolute;
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
+}
+
+.img__tiny {
+    position: absolute;
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+}
+
+.shape__blue {
+    border-top: 292px solid var(--blue);
+    border-left: 100px solid transparent;
+    height: 0;
+    width: 543px;
+    border-radius: 100px;
 }
