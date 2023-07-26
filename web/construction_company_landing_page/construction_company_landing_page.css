@@ -98,6 +98,11 @@ button {
     background: transparent;
 }
 
+button:hover {
+    -webkit-filter: brightness(70%);
+}
+
+
 /* ------------------------------- */
 .px-2 {
     padding-left: 2px;
@@ -1390,6 +1395,10 @@ button {
 
 .hover {
     cursor: pointer;
+}
+
+.hover:hover {
+    -webkit-filter: brightness(70%);
 }
 
 .z--2 {
