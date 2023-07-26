@@ -57,6 +57,7 @@ button {
 .button__1 {
     color: rgb(255, 255, 255);
     background-color: rgb(235, 76, 136);
+    border: none;
 }
 
 .button__1:hover {
@@ -68,6 +69,7 @@ button {
     color: rgb(255, 255, 255);
     background-color: rgb(250, 100, 0);
     font-weight: 600;
+    border: none;
 }
 
 .button__2:hover {
@@ -79,6 +81,7 @@ button {
     color: rgb(255, 255, 255);
     background: linear-gradient(45deg, red 0 30%, blue 70% 100%);
     font-weight: 600;
+    border: none;
 }
 
 .button__3:focus {
@@ -91,6 +94,7 @@ button {
     border-radius: 999px;
     background-color: rgb(255, 255, 255);
     box-shadow: 0 3px 10px 1px rgba(74, 74, 74, 0.3);
+    border: none;
 }
 
 .button__4:hover {
@@ -110,6 +114,7 @@ button {
     border-bottom: 5px solid #5591ad;
     text-transform: uppercase;
     font-weight: 600;
+    border: none;
 }
 
 .button__5:hover {
@@ -140,10 +145,12 @@ button {
 
 .button__8 {
     background-color: white;
+    border: none;
     border-bottom: 4px solid rgb(239, 239, 239);
     box-shadow: 0 2px 3px 1px rgba(36, 36, 36, 0.25),
         0 4px 5px 5px rgba(36, 36, 36, 0.1);
     transition: 0.1s linear;
+
 }
 
 .button__8:hover {
@@ -160,6 +167,7 @@ button {
 
 .button__9 {
     color: green;
+    border: none;
     background-color: rgb(191, 250, 213);
     border-radius: 999px;
     box-shadow: 0 1px 5px 0.5px rgb(128, 193, 152),
@@ -178,6 +186,7 @@ button {
     border-radius: 999px;
     position: relative;
     color: white;
+    border: none;
 }
 
 .button__10::after {
@@ -222,6 +231,7 @@ button {
     border-radius: 5px;
     padding: 5px;
     margin-bottom: 20px;
+    border: none;
 }
 
 .button__12 span {
@@ -429,7 +439,7 @@ button {
     position: absolute;
     background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
     filter: blur(5px);
-    background-size: 400%;
+    background-size: 200%;
     width: calc(100% + 10px);
     height: calc(100% + 10px);
     top: -5px;
@@ -457,6 +467,7 @@ button {
     100% {
         background-position: 0 0;
     }
+
 }
 
 .button__21 {
