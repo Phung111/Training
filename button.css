@@ -1,4 +1,4 @@
-html {
+.html {
     font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
     box-sizing: border-box;
 }
@@ -561,7 +561,7 @@ button {
     }
 
     20% {
-        clip-path: inset(50% -6px 30% 0);
+        clip-path: inset(50% -6px 30% 80);
         transform: translate(-10px, 10px);
     }
 
@@ -607,86 +607,51 @@ button {
     }
 }
 
-< !-- HTML !--><button class="button-49" role="button">Button 49</button>
-
-/* CSS */
-.button-49,
-.button-49:after {
-    width: 150px;
-    height: 76px;
-    line-height: 78px;
-    font-size: 20px;
-    font-family: 'Bebas Neue', sans-serif;
-    background: linear-gradient(45deg, transparent 5%, #FF013C 5%);
-    border: 0;
-    color: #fff;
-    letter-spacing: 3px;
-    box-shadow: 6px 0px 0px #00E6F6;
-    outline: transparent;
+.button__23 {
+    --b: 20px;
     position: relative;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
+    border: none;
+    border-radius: 0;
+    transition: 0.5s;
 }
 
-.button-49:after {
-    --slice-0: inset(50% 50% 50% 50%);
-    --slice-1: inset(80% -6px 0 0);
-    --slice-2: inset(50% -6px 30% 0);
-    --slice-3: inset(10% -6px 85% 0);
-    --slice-4: inset(40% -6px 43% 0);
-    --slice-5: inset(80% -6px 5% 0);
-
-    content: 'ALTERNATE TEXT';
-    display: block;
+.button__23::after {
+    content: "";
     position: absolute;
+    width: calc(100% - var(--b)*1.5);
+    height: 100%;
     top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: linear-gradient(45deg, transparent 3%, #00E6F6 3%, #00E6F6 5%, #FF013C 5%);
-    text-shadow: -3px -3px 0px #F8F005, 3px 3px 0px #00E6F6;
-    clip-path: var(--slice-0);
+    left: calc(var(--b)/2);
+    border-left: calc(var(--b)/4) solid black;
+    border-right: calc(var(--b)/4)solid black;
+    transition: 0.5s;
 }
 
-< !-- HTML !--><button class="button-49" role="button">Button 49</button>
-
-/* CSS */
-.button-49,
-.button-49:after {
-    width: 150px;
-    height: 76px;
-    line-height: 78px;
-    font-size: 20px;
-    font-family: 'Bebas Neue', sans-serif;
-    background: linear-gradient(45deg, transparent 5%, #FF013C 5%);
-    border: 0;
-    color: #fff;
-    letter-spacing: 3px;
-    box-shadow: 6px 0px 0px #00E6F6;
-    outline: transparent;
-    position: relative;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-}
-
-.button-49:after {
-    --slice-0: inset(50% 50% 50% 50%);
-    --slice-1: inset(80% -6px 0 0);
-    --slice-2: inset(50% -6px 30% 0);
-    --slice-3: inset(10% -6px 85% 0);
-    --slice-4: inset(40% -6px 43% 0);
-    --slice-5: inset(80% -6px 5% 0);
-
-    content: 'ALTERNATE TEXT';
-    display: block;
+.button__23::before {
+    --b: 20px;
+    content: "";
     position: absolute;
-    top: 0;
+    ;
+    width: 100%;
+    height: calc(100% - var(--b)*1.5);
+    top: calc(var(--b)/2);
     left: 0;
-    right: 0;
-    bottom: 0;
-    background: linear-gradient(45deg, transparent 3%, #00E6F6 3%, #00E6F6 5%, #FF013C 5%);
-    text-shadow: -3px -3px 0px #F8F005, 3px 3px 0px #00E6F6;
-    clip-path: var(--slice-0);
+    border-top: calc(var(--b)/4) solid black;
+    border-bottom: calc(var(--b)/4)solid black;
+    transition: 0.5s;
+}
+
+.button__23:hover::after {
+    width: calc(100% - var(--b)/2 + 1px);
+    left: 0;
+}
+
+.button__23:hover::before {
+    height: calc(100% - var(--b)/2);
+    top: 0;
+}
+
+.button__23:hover {
+    outline: calc(var(--b)/4) black solid;
+    outline-offset: calc(var(--b)/4);
 }
