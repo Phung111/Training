@@ -59,7 +59,7 @@ function left() {
         var elementTop = left[i].getBoundingClientRect().top;
         var elementVisible = 150;
 
-        if (elementTop < windowHeight - elementVisible && checkAnimation) {
+        if (elementTop < windowHeight - elementVisible) {
             left[i].classList.add("animate__fadeInLeft");
         } else {
             left[i].classList.remove("animate__fadeInLeft");
