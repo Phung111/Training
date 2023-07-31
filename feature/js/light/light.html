@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Light Ball On Off</title>
+    <link rel="stylesheet" href="../../men.css">
+</head>
+
+<body>
+    <div class="flex flex-col" style="width: 100px;">
+        <img id="img" src="./img/off.gif" alt="Light Ball">
+        <div class="flex justify-evenly">
+            <button id="on" class="px-20 py-16 bg-primary" onclick=turnOn()>On</button>
+            <button id="off" class="px-20 py-16 bg-primary bg-neutral" onclick=turnOff()>Off</button>
+        </div>
+    </div>
+    <script>
+        function turnOn() {
+            document.getElementById('img').src = './img/on.gif';
+            document.getElementById('on').classList.toggle('bg-neutral');
+            document.getElementById('off').classList.toggle('bg-neutral');
+        }
+        function turnOff() {
+            document.getElementById('img').src = './img/off.gif';
+            document.getElementById('on').classList.toggle('bg-neutral');
+            document.getElementById('off').classList.toggle('bg-neutral');
+        }
+    </script>
+</body>
+
+</html>
