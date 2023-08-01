@@ -172,6 +172,10 @@
     border-color: var(--yellow__dark);
 }
 
+.mySwiper1 .swiper-slide {
+    width: 307px;
+}
+
 .mySwiper2 .swiper-slide {
     width: 800px;
 }

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../men.css">
+    <link rel="stylesheet" href="./menu_3.css">
+    <style>
+        .contain {
+            /* display: grid;
+            grid-template-rows: masonry;
+            grid-template-columns: masonry;
+            grid-template-columns: repeat(4, 1fr); */
+            gap: 10px;
+        }
+
+        .item {
+            width: 100%;
+            background-color: cyan;
+        }
+
+        .item1 {
+            height: 20px
+        }
+
+        .item2 {
+            height: 30px
+        }
+
+        .item3 {
+            height: 40px
+        }
+
+        .item4 {
+            height: 20px
+        }
+
+        .item5 {
+            height: 10px
+        }
+
+        .item6 {
+            height: 100px
+        }
+
+        .item7 {
+            height: 80px
+        }
+
+        .item8 {
+            height: 20px
+        }
+
+        .item9 {
+            height: 50px
+        }
+
+        .item10 {
+            height: 60px
+        }
+    </style>
+</head>
+
+<body>
+    <div class="contain waterfall">
+        <div class="item item1"></div>
+        <div class="item item2"></div>
+        <div class="item item3"></div>
+        <div class="item item4"></div>
+        <div class="item item5"></div>
+        <div class="item item6"></div>
+        <div class="item item7"></div>
+        <div class="item item8"></div>
+        <div class="item item9"></div>
+        <div class="item item10"></div>
+    </div>
+    <script src="waterfall.min.js">
+        var grid = document.querySelector('waterfall');
+        waterfall(grid);
+    </script>
+</body>
+
+</html>

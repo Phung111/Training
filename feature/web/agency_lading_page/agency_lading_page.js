@@ -132,6 +132,10 @@ var businesses = [
     { id: 5, img: './img/b4.png', tittle: 'WEBSITE DESIGN 2', color: 'bg-neutral', des: "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s." },
     { id: 6, img: './img/b4.png', tittle: 'WEBSITE DESIGN 3', color: 'bg-neutral', des: "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s." },
     { id: 7, img: './img/b4.png', tittle: 'WEBSITE DESIGN 4', color: 'bg-neutral', des: "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s." },
+    { id: 8, img: './img/b4.png', tittle: 'WEBSITE DESIGN 5', color: 'bg-neutral', des: "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s." },
+    { id: 9, img: './img/b4.png', tittle: 'WEBSITE DESIGN 6', color: 'bg-neutral', des: "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s." },
+    { id: 10, img: './img/b4.png', tittle: 'WEBSITE DESIGN 7', color: 'bg-neutral', des: "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s." },
+    { id: 11, img: './img/b4.png', tittle: 'WEBSITE DESIGN 8', color: 'bg-neutral', des: "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s." },
 ]
 
 function renderBusiness() {
@@ -202,7 +206,7 @@ const swiper = new Swiper('.mySwiper1', {
 const swiper2 = new Swiper('.mySwiper2', {
     // Optional parameters
     slidesPerView: 'auto',
-    loopedSlides: 2,
+    loopedSlides: 3,
     spaceBetween: 30,
     loop: true,
 
