@@ -1,3 +1,5 @@
+
+
 // const observer = new IntersectionObserver(entries => {
 //     entries.forEach(entry => {
 //         const left = entry.target.querySelector('.animate__left');
@@ -119,3 +121,99 @@ window.addEventListener("scroll", right);
 window.addEventListener("scroll", left);
 window.addEventListener("scroll", down);
 window.addEventListener("scroll", up);
+
+//----------------------------------//
+
+var businesses = [
+    { id: 1, img: './img/b1.png', tittle: 'WEBSITE DESIGN', color: 'bg-primary', des: "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s." },
+    { id: 2, img: './img/b2.png', tittle: 'WEB DEVELOPMENT', color: 'bg-yellow', des: "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s." },
+    { id: 3, img: './img/b3.png', tittle: 'MOBILE APP DEVELOPMENT', color: 'bg-secondary', des: "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s." },
+    { id: 4, img: './img/b4.png', tittle: 'WEBSITE DESIGN 1', color: 'bg-neutral', des: "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s." },
+    { id: 5, img: './img/b4.png', tittle: 'WEBSITE DESIGN 2', color: 'bg-neutral', des: "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s." },
+    { id: 6, img: './img/b4.png', tittle: 'WEBSITE DESIGN 3', color: 'bg-neutral', des: "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s." },
+    { id: 7, img: './img/b4.png', tittle: 'WEBSITE DESIGN 4', color: 'bg-neutral', des: "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s." },
+]
+
+function renderBusiness() {
+    let renderB = businesses.map(function (business) {
+        return `
+                    <div class="swiper-slide flex flex-col bg-white br-12 px-16 py-16 bs-50 ">
+                        <div class="flex-middle ${business.color} br-12 mb-12" style="width: 52px; height: 48px;">
+                            <img src="${business.img}" alt="">
+                        </div>
+                        <div class="mb-12">
+                            <p class="fw-600 upcase">${business.tittle}</p>
+                        </div>
+                        <div class="" style="width: 275px; height: 82px;">
+                            <p>${business.des}</p>
+                        </div>
+                    </div>
+                `
+    })
+
+    document.getElementById('business').innerHTML = renderB.join("")
+}
+
+
+function ready() {
+    renderBusiness();
+}
+
+ready();
+
+const swiper = new Swiper('.mySwiper1', {
+    // Optional parameters
+    slidesPerView: 'auto',
+    loopedSlides: 3,
+    spaceBetween: 30,
+    loop: true,
+
+    // Navigation arrows
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+
+    // breakpoints: {
+    //     0: {
+    //         slidesPerView: 1,
+    //         loopedSlides: 0,
+    //         spaceBetween: 0,
+    //     },
+    //     768: {
+    //         slidesPerView: 2,
+    //         loopedSlides: 1,
+    //         spaceBetween: 10,
+    //     },
+    //     992: {
+    //         slidesPerView: 3,
+    //         loopedSlides: 2,
+    //         spaceBetween: 20,
+    //     },
+    //     1290: {
+    //         slidesPerView: 4,
+    //         loopedSlides: 3,
+    //         spaceBetween: 30,
+    //     }
+    // },
+
+});
+
+const swiper2 = new Swiper('.mySwiper2', {
+    // Optional parameters
+    slidesPerView: 'auto',
+    loopedSlides: 2,
+    spaceBetween: 30,
+    loop: true,
+
+    // Navigation arrows
+    navigation: {
+        nextEl: '.swiper-button-next2',
+        prevEl: '.swiper-button-prev2',
+    },
+});
+
+
+
+
+
