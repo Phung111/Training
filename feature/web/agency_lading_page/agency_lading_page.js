@@ -168,7 +168,6 @@ ready();
 const swiper = new Swiper('.mySwiper1', {
     // Optional parameters
     slidesPerView: 'auto',
-    loopedSlides: 3,
     spaceBetween: 30,
     loop: true,
 
@@ -178,35 +177,11 @@ const swiper = new Swiper('.mySwiper1', {
         prevEl: '.swiper-button-prev',
     },
 
-    // breakpoints: {
-    //     0: {
-    //         slidesPerView: 1,
-    //         loopedSlides: 0,
-    //         spaceBetween: 0,
-    //     },
-    //     768: {
-    //         slidesPerView: 2,
-    //         loopedSlides: 1,
-    //         spaceBetween: 10,
-    //     },
-    //     992: {
-    //         slidesPerView: 3,
-    //         loopedSlides: 2,
-    //         spaceBetween: 20,
-    //     },
-    //     1290: {
-    //         slidesPerView: 4,
-    //         loopedSlides: 3,
-    //         spaceBetween: 30,
-    //     }
-    // },
-
 });
 
 const swiper2 = new Swiper('.mySwiper2', {
     // Optional parameters
     slidesPerView: 'auto',
-    loopedSlides: 3,
     spaceBetween: 30,
     loop: true,
 
@@ -216,6 +191,8 @@ const swiper2 = new Swiper('.mySwiper2', {
         prevEl: '.swiper-button-prev2',
     },
 });
+
+
 
 
 
