@@ -163,15 +163,6 @@
     display: block;
 }
 
-.my__swiper3 .swiper-slide {
-    width: 25% !important;
-}
-
-.my__swiper4 .swiper-slide {
-    width: 33% !important;
-    /* height: 320px; */
-}
-
 .swiper-button-prev,
 .swiper-button-next {
     padding: 10px;

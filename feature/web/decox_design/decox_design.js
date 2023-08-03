@@ -123,7 +123,7 @@ const swiper3 = new Swiper('.my__swiper3', {
         pauseOnMouseEnter: true,
     },
     loop: true,
-    slidesPerView: 'auto',
+    slidesPerView: 4,
     spaceBetween: 20,
     navigation: {
         nextEl: '.swiper-button-next',
@@ -138,7 +138,7 @@ const swiper4 = new Swiper('.my__swiper4', {
         pauseOnMouseEnter: true,
     },
     loop: true,
-    slidesPerView: 'auto',
+    slidesPerView: 3,
     spaceBetween: 20,
     navigation: {
         nextEl: '.swiper-button-next',
