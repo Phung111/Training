@@ -95,6 +95,7 @@ hr {
 
 img {
     object-fit: cover;
+    max-width: 100%;
 }
 
 button {
@@ -1531,8 +1532,15 @@ input:focus {
     background-color: rgb(231, 231, 231);
 }
 
-.hover:hover {
-    -webkit-filter: brightness(70%);
+.hover:hover::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.3;
 }
 
 .hover-primary:hover {
@@ -1875,6 +1883,11 @@ input:focus {
         margin-right: 10px;
     }
 
+    .px-120 {
+        padding-left: 60px !important;
+        padding-right: 60px !important;
+    }
+
     .px-10-992 {
         padding-left: 10px;
         padding-right: 10px;
@@ -1922,7 +1935,12 @@ input:focus {
 }
 
 /* (big tablets) */
-@media only screen and (max-width: 768px) {}
+@media only screen and (max-width: 768px) {
+    .px-120 {
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+    }
+}
 
 /* (phones, tablets) */
 @media only screen and (max-width: 600px) {}

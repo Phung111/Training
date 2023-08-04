@@ -13,9 +13,6 @@
 
 /* (big screen) */
 @media only screen and (max-width: 1200px) {
-    .channel__video {
-        height: 450px !important;
-    }
 
     .header {
         flex-direction: column;
@@ -33,9 +30,6 @@
 
 /* (lap, desktop) */
 @media only screen and (max-width: 992px) {
-    .slider .swiper-slide {
-        height: 600px !important;
-    }
 
     .channel__video {
         height: 350px !important;
@@ -49,9 +43,6 @@
 
 /* (big tablets) */
 @media only screen and (max-width: 768px) {
-    .slider .swiper-slide {
-        height: 500px !important;
-    }
 
     .channel__video {
         height: 250px !important;
@@ -64,13 +55,7 @@
 }
 
 /* (phones, tablets) */
-@media only screen and (max-width: 600px) {
-    .slider .swiper-slide {
-        height: 400px !important;
-    }
-
-
-}
+@media only screen and (max-width: 600px) {}
 
 
 .header {}
@@ -127,12 +112,6 @@
     display: grid;
 }
 
-.slider .swiper-slide {
-    width: 100%;
-    height: 700px;
-    transition: 0.5s;
-}
-
 .btn__decox {
     background-color: transparent;
     color: var(--primary);
@@ -171,6 +150,10 @@
     margin: 0 5px !important;
 }
 
+.collection__item:hover .collection__item__tittle {
+    display: block;
+}
+
 .channel {
     grid-template-columns: 1fr 4fr;
 }
@@ -200,4 +183,54 @@
 .swiper-button-prev:hover,
 .swiper-button-next:hover {
     background-color: rgba(255, 255, 255, 0.5);
+}
+
+.container {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: space-between;
+    /* fixed height, cao hơn độ cao của item cao nhất */
+    height: 600px;
+}
+
+.item {
+    width: 32%;
+    margin-bottom: 2%;
+}
+
+/* sắp xếp lại theo từng dòng */
+.item:nth-child(3n+1) {
+    order: 1;
+}
+
+.item:nth-child(3n+2) {
+    order: 2;
+}
+
+
+.item:nth-child(3n) {
+    order: 3;
+}
+
+
+/* bắt buộc chèn vào cột mới */
+.container::before,
+.container::after {
+    content: "";
+    flex-basis: 100%;
+    width: 0;
+    order: 2;
+}
+
+.masonry {
+    display: flex;
+}
+
+.masonry .masonry-col:not(:last-child) {
+    margin-right: 20px;
+}
+
+.masonry-item {
+    margin-bottom: 20px;
+    /* width: 200px; */
 }

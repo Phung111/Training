@@ -98,7 +98,7 @@ var all = [
     { id: 24, img: './img/b6.jpg', tittle: 'the nest villa interio', des: 'Biệt Thự' },
 ]
 
-var mansory = [
+var masonry = [
     { id: 1, img: './img/1.jpg', tittle: 'The Adam Villa', des: 'Nhà phố' },
     { id: 2, img: './img/2.jpg', tittle: 'The Adam Villa', des: 'Nhà phố' },
     { id: 3, img: './img/3.jpg', tittle: 'The Adam Villa', des: 'Nhà phố' },
