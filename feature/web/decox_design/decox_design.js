@@ -145,3 +145,18 @@ const swiper4 = new Swiper('.my__swiper4', {
         prevEl: '.swiper-button-prev',
     },
 });
+
+const swiper_header = new Swiper('.my__swiper__header', {
+    autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+        pauseOnMouseEnter: true,
+    },
+    loop: true,
+    slidesPerView: 9,
+    spaceBetween: 20,
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+});
