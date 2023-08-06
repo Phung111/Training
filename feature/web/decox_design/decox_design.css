@@ -226,6 +226,10 @@
     display: flex;
 }
 
+.masonry img {
+    max-width: 100%;
+}
+
 .masonry .masonry-col:not(:last-child) {
     margin-right: 20px;
 }
