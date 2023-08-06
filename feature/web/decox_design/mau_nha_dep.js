@@ -77,11 +77,11 @@ const masonryRender = () => {
 
 
             let masonry_item = `
-                                    <div class="masonry-item masonry-item-${column} relative flex-middle">
-                                        <a href="#">
-                                            <img src="${masonry[j].img}">
+                                    <div class="masonry-item masonry-item-${column} relative flex-middle hover">
+                                        <a href="#" >
+                                            <img src="${masonry[j].img}" class="br-16">
                                         </a>
-                                        <div class="absolute z-10 text-white fs-20 fw-700">
+                                        <div class="absolute z-10 text-white fs-20 fw-700 z-10">
                                             ${j}
                                         </div>
                                     </div>
