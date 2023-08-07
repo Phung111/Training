@@ -67,7 +67,8 @@ const masonryRender = () => {
         while (j <= masonry.length) {
             console.log('j : ', j);
             // console.log('pic_', j);
-            // caculateColumnHieght()
+            caculateColumnHieght()
+
             let column = i;
             // if (j <= masonry_column_array.length) {
             //     column = i
