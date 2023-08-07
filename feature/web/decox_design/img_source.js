@@ -14,18 +14,18 @@ var collections = [
 ]
 
 var videos = [
-    { id: 4, img: './img/b4.jpg', src: 'https://www.youtube.com/embed/Idbujg6WMHY' },
-    { id: 5, img: './img/b5.jpg', src: 'https://www.youtube.com/embed/jsYr7GonVhg' },
-    { id: 6, img: './img/b6.jpg', src: 'https://www.youtube.com/embed/gzu7zW1vp4U' },
-    { id: 7, img: './img/b7.jpg', src: 'https://www.youtube.com/embed/gcgKUcJKxIs' },
-    { id: 8, img: './img/b8.jpg', src: 'https://www.youtube.com/embed/fcSzGKfVkJM' },
-    { id: 9, img: './img/b9.jpg', src: 'https://www.youtube.com/embed/mX4KwYYqEhI' },
-    { id: 4, img: './img/b4.jpg', src: 'https://www.youtube.com/embed/Idbujg6WMHY' },
-    { id: 5, img: './img/b5.jpg', src: 'https://www.youtube.com/embed/jsYr7GonVhg' },
-    { id: 6, img: './img/b6.jpg', src: 'https://www.youtube.com/embed/gzu7zW1vp4U' },
-    { id: 7, img: './img/b7.jpg', src: 'https://www.youtube.com/embed/gcgKUcJKxIs' },
-    { id: 8, img: './img/b8.jpg', src: 'https://www.youtube.com/embed/fcSzGKfVkJM' },
-    { id: 9, img: './img/b9.jpg', src: 'https://www.youtube.com/embed/mX4KwYYqEhI' },
+    { id: 4, img: './img/b4.jpg', src: 'https://www.youtube.com/embed/a3Vq36uyg3U' },
+    { id: 5, img: './img/b5.jpg', src: 'https://www.youtube.com/embed/1CwXajsTqNA' },
+    { id: 6, img: './img/b6.jpg', src: 'https://www.youtube.com/embed/ej4LTWFyEjk' },
+    { id: 7, img: './img/b7.jpg', src: 'https://www.youtube.com/embed/DYQ-hGTGPYk' },
+    { id: 8, img: './img/b8.jpg', src: 'https://www.youtube.com/embed/mAPhE_iQfOs' },
+    { id: 9, img: './img/b9.jpg', src: 'https://www.youtube.com/embed/lT3nbxk_D3k' },
+    { id: 4, img: './img/b4.jpg', src: 'https://www.youtube.com/embed/7thXUlATrNQ' },
+    { id: 5, img: './img/b5.jpg', src: 'https://www.youtube.com/embed/TPsCNl9P3iQ' },
+    { id: 6, img: './img/b6.jpg', src: 'https://www.youtube.com/embed/SSeG6aUuMpU' },
+    { id: 7, img: './img/b7.jpg', src: 'https://www.youtube.com/embed/94orjyRsL1Y' },
+    { id: 8, img: './img/b8.jpg', src: 'https://www.youtube.com/embed/IKyFoME00hM' },
+    { id: 9, img: './img/b9.jpg', src: 'https://www.youtube.com/embed/qS5uFLjpMi4' },
 ]
 
 var chtks = [

@@ -1834,6 +1834,10 @@ input:focus {
     height: var(--nav__3__height);
 }
 
+.lh-30 {
+    line-height: 30px;
+}
+
 /* ------------------------------- */
 
 /* (big screen) */

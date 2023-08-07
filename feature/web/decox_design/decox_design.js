@@ -4,7 +4,7 @@ const renderSlides = () => {
     let render = slides.map(function (item) {
         return `
                 <div class="swiper-slide">
-                    <a href="#">
+                    <a href="./biet_thu.html">
                         <img src="${item.img}" alt="s1" width="100%" height="100%">
                     </a>
                 </div>
@@ -17,7 +17,7 @@ const renderCollections = () => {
     let render = all.map(function (item) {
         return `
                 <div class=" swiper-slide ">
-                    <a href="#" class="collection__item relative flex-middle hover z-1">
+                    <a href="./biet_thu.html" class="collection__item relative flex-middle hover z-1">
                         <img class="br-16" src="${item.img}" alt="s1" width="100%" height="100%">
                         <span class="collection__item__tittle absolute upcase text-white px-100 py-120 text-center fw-700 d-none z-2">${item.tittle}</span>
                     </a>
@@ -49,7 +49,7 @@ const renderNtm = () => {
     let render = all.map(function (item) {
         return `
                 <div class="swiper-slide">
-                    <a href="#">
+                    <a href="./biet_thu.html">
                         <div class="mb-16 br-8 overflow-hidden hover relative"><img src="${item.img}" width="100%" height="100%"></div>
                         <div class="fs-20 fw-900 mb-16 text-primary text-wrap capital text-ov-2">${item.tittle}</div>
                         <div class="text-gray capital text-ov-1">${item.des}</div>
@@ -67,7 +67,7 @@ const renderChtks = () => {
         return `
   
                 <div class="flex flex-col">
-                    <a href="#">
+                    <a href="./biet_thu.html">
                         <div class="br-8 overflow-hidden mb-12 relative hover">
                             <img src="${item.img}" width="100%">
                         </div>

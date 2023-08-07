@@ -238,3 +238,8 @@
     margin-bottom: 20px;
     /* width: 200px; */
 }
+
+.item__item {
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
