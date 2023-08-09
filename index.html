@@ -5,6 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Phụng Training</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <!-- <link rel="stylesheet" href="../../../dist/output.css"> -->
+    <link rel="stylesheet" href="./feature/men.css">
     <link rel="stylesheet" href="./feature/button/button.css">
     <link rel="stylesheet" href="./feature/button/menu.css">
 </head>
@@ -12,7 +18,7 @@
 <body>
     <header>
         <nav>
-            <div class="menu">
+            <div class="menu z-10">
                 <div class="menu__item">Web
                     <div class="menu__item__drop">
                         <a href="./feature/web/w3schools/index.html">
@@ -40,8 +46,8 @@
                         <a href="./feature/web/decox_design/decox_design.html">
                             <div class="menu__item__drop__item">Decox_design</div>
                         </a>
-                        <a href="./feature/web/temp/temp.html">
-                            <div class="menu__item__drop__item">Temp</div>
+                        <a href="./feature/web/ppro/ppro.html">
+                            <div class="menu__item__drop__item">PPro</div>
                         </a>
                     </div>
                 </div>
@@ -68,7 +74,100 @@
             </div>
         </nav>
     </header>
+
     <section>
+        <div class="project">
+            <div class="grid col-2 gap-60">
+                <a class="project__item hover" href="./feature/web/decox_design/decox_design.html" target="_blank">
+                    <div class="project__item__bg" style="background-color: #101010;"></div>
+                    <img src="./img/17.jpg" class="project__item__img__bg">
+                    <div class="flex flex-col mb-60 z-5">
+                        <p class="fs-18 text-gray fw-500 mb-20">20 hour</p>
+                        <h2 class="fs-32 text-white fw-700">Decox Design</h2>
+                    </div>
+                    <div class="project__img__contant">
+                        <img src="./img/decox1.png" class="img__1" width="100%">
+                    </div>
+                    <ul class="project__tech">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JS</li>
+                        <li>Swiper</li>
+                    </ul>
+                </a>
+                <a class="project__item hover" href="./feature/web/agency_lading_page/agency_lading_page.html"
+                    target="_blank">
+                    <div class="project__item__bg" style="background-color: #233253;"></div>
+                    <img src="./img/14.jpg" class="project__item__img__bg">
+                    <div class="flex flex-col mb-60 z-5">
+                        <p class="fs-18 text-gray fw-500 mb-20">20 hour</p>
+                        <h2 class="fs-32 text-white fw-700">Agency Landing Page</h2>
+                    </div>
+                    <div class="project__img__contant">
+                        <img src="./img/agency1.png" class="img__1" width="100%">
+                    </div>
+                    <ul class="project__tech">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JS</li>
+                        <li>Swiper</li>
+                        <li>Animate</li>
+                    </ul>
+                </a>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-- <section class="section__web">
+        <div class="flex flex-col">
+            <div class="">
+                <div class="grid col-2 bs-5 mb-20" style="grid-template-columns: 1fr 2fr;margin: 60px;">
+                    <div class="" style="background-color: #242425; grid-row-start: 1; grid-row-end: 3;">
+                        <div class="flex flex-col relative text-white ml-12 mt-12 px-60 py-60">
+                            <img src="./img/9dots_white.png" width="30px" height="30px" class="absolute t0 l0">
+                            <div class="flex flex-col">
+                                <div class="flex">
+                                    <i class="fa-solid fa-gear px-20 py-20 bg-white text-black mb-12 fs-20"></i>
+                                </div>
+                                <div class="fs-24 fw-600 text-white text-i mb-12">
+                                    Công nghệ áp dụng
+                                </div>
+                                <ul class="mb-12">
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>JS</li>
+                                    <li>SwiperJS</li>
+                                </ul>
+                                <div class="flex">
+                                    <i class="fa-solid fa-link px-20 py-20 bg-white text-black mb-12 fs-20"></i>
+                                </div>
+                                <div class="flex mt-12">
+                                    <a href="./feature/web/decox_design/decox_design.html" target="blank"
+                                        class="flex px-20 py-12 text-white relative hover"
+                                        style="border: 1px solid white;">
+                                        Link Web
+                                    </a>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="flex">
+                        <img src="./img/decox.png" width="100%">
+                    </div>
+                    <div class="flex-middle px-60 py-60 relative fs-40 fw-700">
+                        Decox Design
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+
+    <section class="section__button">
         <div class="container">
             <button class="button__1">Button 1</button>
             <div class="decription">
@@ -366,7 +465,7 @@
 
     </section>
 
-
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script src="./feature/button/button.js"></script>
 
 </body>

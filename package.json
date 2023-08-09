@@ -1,14 +1,15 @@
 {
   "dependencies": {
     "animate.css": "^4.1.1",
-    "masonry-layout": "^4.2.2",
     "node-sass": "^9.0.0",
     "sass": "^1.64.1",
-    "scss": "^0.2.4",
-    "waterfall.js": "^1.1.0"
+    "scss": "^0.2.4"
   },
   "scripts": {
     "sass:dev": "sass --watch --embed-source-map src/scss:public/styles",
     "sass:prod": "sass --no-source-map --style compressed src/scss:public/styles"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
   }
 }
